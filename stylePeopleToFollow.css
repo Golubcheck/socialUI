@@ -1,0 +1,66 @@
+.peopleToFollow_1Block
+{
+	height: 50px;
+	width: 100%;	
+	display: flex;  
+}
+
+.avatar
+{
+	background-color: darkred;
+	height: 100%;
+	width: 50px;
+	background-image: url(img/photo-base.png);
+	object-fit: cover;
+	border-radius: 25px;
+}
+
+.peopleToFollowText
+{
+	height:50px;
+	width: 60%;
+	margin-left: 10px;
+}
+
+.peopleToFollowAddButton
+{
+	padding: 1px 8px;
+	margin: auto;
+	text-align: center;
+	border-radius: 6px;
+	border: 1px solid lightblue;
+	font-size: 12px;
+	letter-spacing: 0px;
+	line-height: 24px;
+	color: #97a4b1;
+	font-weight: 600;
+	font-family: "Open Sans";
+}
+
+.peopleToFollowAddButton:hover
+{
+	background-color: #4d73d173;
+	color: white;
+}
+
+.peopleToFollowName
+{
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #3f4f5f;
+	font-weight: 600;
+	font-family: "Open Sans";
+	text-align: center;
+}
+
+.peopleToFollowStatys
+{
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 18px;
+color: #97a4b1;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+}

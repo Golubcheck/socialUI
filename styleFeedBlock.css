@@ -1,0 +1,48 @@
+.smallFeedBlock
+{
+	display: flex;
+}
+
+.smallFeedBlockIconBlock
+{
+	width: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.feedBlockIcon
+{
+	width: 20px;
+}
+
+.smallFeedBlockIconBlock hr
+{
+	background-color: lightgray;
+	height: 100%;
+	width: 2px;
+	border: none;
+
+}
+
+.smallFeedBlock_Feed
+{
+	max-height: 100px;
+	width: 85%;
+	margin: auto;
+	color: #727272;
+}
+
+.smallFeedBlock_Feed a
+{
+	color: #4d75a3;;
+}
+
+.smallFeedBlock_Feed img
+{
+height: 51px;
+width: 51px;
+object-fit: cover;
+background-image: url(img/photo.png);
+
+}
+

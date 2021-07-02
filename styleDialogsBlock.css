@@ -1,0 +1,326 @@
+.dialogsBlock_Main
+{
+	filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.1));
+	background-color: #ffffff;
+	width: 1150px;
+	height: 810px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 8px;
+	display: flex;
+}
+
+.dialogs_DialogsListBlock
+{
+	height: inherit;
+	width: 32%;
+}
+
+.dialogs_DialogsList_Header
+{
+	height: 11%;
+	width: 100%;
+	display: flex;
+}
+
+.dialogs_DialogsList_Header h3
+{
+	font-size: 16pt;
+letter-spacing: 0px;
+line-height: 24px;
+color: #667a90;
+font-weight: 600;
+font-family: "Open Sans";
+margin: auto 10px auto 30px;
+}
+
+.dialogs_DialogsList_Header_ButtonBlock
+{
+	height: 16px;
+	width: 84px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-right: 20px;
+	float: right; 
+
+}
+
+.dialogs_DialogsList_Header_ButtonBlock a
+{
+height: inherit;
+width: 16px;
+}
+
+.dialogs_DialogsList_Header_ButtonBlock a img
+{
+width: 90%;
+height: 90%;
+}
+
+.dialogs_DialogsList
+{
+	height: 89%;
+overflow-y: auto;
+}
+.dialogsList
+{
+	margin: 0px;
+}
+
+.dialogsList li
+{
+	height: 100px;
+	width: inherit;
+ 	border-bottom: 1px solid #ededed;
+ 	list-style: none;
+	 margin-left: -40px;
+	 display: flex;
+	 background-color: #ebf4fa;
+}
+
+.dialogsList .checkedDialog
+{
+	background-color: #ffffff;
+}
+
+.dialogsList li > img
+{
+	height: 55px;
+	border-radius: 50%;
+margin: auto 7px;
+}
+
+.dialogsList_Text
+{
+	margin: auto 5px;
+	width: 58%;
+}
+.dialogsList_Text img
+{
+	min-width: 7px;
+	margin-left: 4px;
+}
+
+.dialogsList_Text h3
+{
+	margin-bottom: 7px;
+	font-size: 15pt;
+letter-spacing: 0px;
+line-height: 18px;
+color: #3f4f5f;
+font-weight: 600;
+font-family: "Open Sans";
+}
+
+
+
+.dialogsList_Text p
+{
+width: 100%;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+
+font-size: 14pt;
+letter-spacing: 0px;
+line-height: 24px;
+color: #667a90;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+.dialogsList li h4    /*счетчик времени сообщения*/
+{
+	margin-top: 21px;
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #b1b1b1;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+.dialogsList_TimeAndNotificationBlock
+{
+	width: 60px;
+	margin-right: 5px;
+	position: relative;
+}
+
+.dialogsList_TimeAndNotificationBlock img
+{
+	margin-top: 5px;
+float: right;
+}
+
+.dialogsList_TimeAndNotificationBlock p
+{
+	position: absolute;
+	right: 8px;
+	top: 54px;
+font-size: 12pt;
+line-height: 16px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Open Sans";
+text-align: center;
+}
+
+.dialogsBlock_BigDialogBlock
+{
+	height: inherit;
+	width: 70%;
+	border-left: 1px solid #ededed;
+}
+
+.dialogs_BigDialog_Header
+{
+	width: 100%;
+	height: 11%;
+	border-bottom: 1px solid #ededed;
+ 	align-items: center;
+ 	display: flex;
+ 	justify-content: space-between;
+}
+
+.dialogs_BigDialog_Header h3
+{
+	margin-left: 20px;
+}
+
+.dialogs_BigDialog_Header_ButtonBlock
+{
+margin-right: 20px;
+width: 80px;
+display: flex;
+justify-content: space-between;
+}
+
+.dialogs_BigDialog_Header_ButtonBlock img
+{
+	height: inherit;
+}
+
+.dialogs_BigDialog_chat
+{
+	max-height: 620px;
+	overflow-y:scroll ;
+}
+
+.dialogs_BigDialog_chat > div > img
+{
+	width: 50px;
+	border-radius: 50%;
+}
+
+.message--user-1 > img
+{
+	margin-left: 10px;
+}
+
+.message--user-2 > img
+{
+	margin-right: 5px;
+}
+
+.bigDialog_chat_message__time
+{
+  font-size: 10px;
+  color: #ccc;
+  width: 100%;
+  margin: 5px 77px;
+}
+
+.message--user-2 > time 
+{
+	float: right;
+	text-align: right;
+}
+
+.dialogs_BigDialog_Chat_WriteBox
+{
+	width: 100%;
+	height: 100px;
+	background-color: #f2f4f6;
+	border-radius: 0 0 8px 0;
+}
+
+.bigDialog_TextTypeBox
+{
+	display: flex;
+}
+
+.bigDialog_TextTypeBox input
+{
+	height: 47px;
+	width: 640px;
+	margin: 16px 13px 4px 15px ;
+	border: 1px solid #e5e5e5;
+}
+
+.bigDialog_TextTypeBox_SendButton
+{
+	background-color: #4d75a3;
+	width: 90px;
+	height: 40px;
+	margin: 23px 12px 0px 0px;
+	border-radius: 7px;
+	display: flex;
+}
+
+.bigDialog_TextTypeBox_SendButton a
+{
+align-self: center;
+padding: 8px 25px;
+font-size: 16px;
+letter-spacing: 0px;
+line-height: 25px;
+color: #ffffff;
+font-weight: 600;
+font-family: "Open Sans";
+
+}
+
+.bigDialog_SmilesBlock
+{
+	margin-left: 20px;
+	width: 200px;
+	display: flex;
+	height: 22px;
+}
+
+.bigDialog_SmileIcon
+{
+	border: none;
+	border-radius: 50%;
+	border: 1px solid #ffffff;
+	width: 22px;
+}
+
+.bigDialog_SmileIcon:hover
+{
+	border: 1px solid lightgrey;
+	cursor: pointer;
+}
+
+.bigDialog_SmileIcon img
+{
+border-radius: 50%;
+margin-left: -4px;
+margin-top: -1px;
+}
+
+.bigDialog_Smiles
+{
+	margin-left: 10px;
+	height: 17px;
+	align-self: center;
+	visibility: hidden;
+}
+
+.bigDialog_Smiles img
+{
+	height: 16px;
+	margin-right: 3spx;
+}

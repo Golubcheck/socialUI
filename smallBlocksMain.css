@@ -1,0 +1,84 @@
+.smallBlocksBlock
+{
+max-width: 1152px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+
+
+.smallBlock
+{
+	background-color: #ffffff;
+	filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.1));
+	height: 602px;
+	max-width: 383px;
+	border-radius: 8px;
+}
+
+.smallBlock h2
+{
+font-size: 24px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #000000;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+}
+
+.smallBlocksNameBlock
+{
+	width: 325px;
+	height: 25pt;
+	margin: 32px 26px 0;
+	display: flex;
+	position: relative;
+}
+
+.smallBlocksNameImage
+{	
+	position: absolute;
+	right: 0px;
+	top: 8px;
+}
+
+.smallBlocksContentBlock
+{
+	height: 420px;
+	width:317px ;
+	margin: 40px auto 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.smallBlockButton
+{
+	background-color: green;
+	height: 51px;
+	background-color: #ebf4fa;
+	padding: inherit;
+	display: flex;
+	border-radius: 0 0 8px 8px;
+}
+
+.smallBlockButton a 
+{
+	width: 100%;
+	height: 52px;
+	border-radius: 0 0 8px 8px;
+	text-align: center;
+}
+
+.smallBlockButton a p
+{
+	margin-top:13px ;
+	font-size: 11pt;
+letter-spacing: 0px;
+line-height: 24px;
+color: #7595b9;
+font-weight: 600;
+font-family: "Open Sans";
+}

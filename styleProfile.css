@@ -1,0 +1,124 @@
+.profile
+{
+	height: 201px;
+	width: 100%;
+	max-width: 1152px;
+	background-color: #ffffff;
+	margin: 49px auto;
+	border-radius: 8px;
+	filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.1));
+	display: flex;
+}
+
+.profileUserPhoto
+{
+	height: 100px;
+	width: 100px;
+	margin: 50px 0px 50px 50px;
+
+}
+
+.profileUserNameStatusBlock
+{
+	width: 268px;
+	height: 75px;
+	margin: 64px 25px;
+}
+
+.profileApproved
+{
+	float: ;
+}
+
+.profileUserNameStatusBlock:after
+{
+	content: " ";
+width: 2px;
+height: 100px;
+background-color: #e5e5e5;
+float: right;
+margin-right: -30px;
+margin-top: -77px;
+}
+
+.profileStatusBlock
+{
+	margin-top: 5px;
+}
+
+.profileStatsBlock
+{
+	width: 336px;
+	height: 46px;
+	margin: 76px 0px 76px 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.profileStatsBlock div
+{
+	align-self: center;
+	text-align: center;
+	height: 43px;
+	width: 63px;
+}
+
+.profileStatsBlock h3
+{
+	font-size: 24px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #4d75a3;
+font-weight: 600;
+font-family: "Open Sans";
+}
+
+.profileStatsBlock h4
+{
+	font-size: 14px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #4d75a3;
+font-weight: 300;
+font-family: "Open Sans";
+}
+
+.profileButtonsBlock 
+{
+	height: 108px;
+	width: 186px;
+	margin: auto 60px;
+}
+
+.profileButtonsBlock div
+{
+	width: inherit;
+	height: 50px;
+	border-radius: 8px;
+	display: flex;
+	margin-bottom: 8px;
+}
+
+.profileButtonsBlock div a
+{
+	width: inherit;	
+	border-radius: 6px;
+	border: 2pt solid #4d75a3;
+	text-align: center;
+	font-size: 16px;
+letter-spacing: 0px;
+line-height: 44px;
+font-weight: 600;
+font-family: "Open Sans";
+}
+
+.profileButton1
+{
+background-color: #4d75a3;
+color: #ffffff;
+}
+
+.profileButton2
+{
+background-color: #FFFFFF;
+}

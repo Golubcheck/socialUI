@@ -1,0 +1,185 @@
+header
+{
+	height: 151px;
+	max-width: 1152px;
+	min-width: 700px;
+	margin:20px auto;
+	filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.1));
+}
+
+.topBar
+{
+	background-color: #4d75a3;
+	width: 100%;
+	height: 76px;
+	display: flex;
+	border-radius: 8px 8px 0 0;
+	position: relative;
+}
+
+.headerLogo
+{
+	height: 76px;
+	width: 175px;
+	border-right: 1px solid #41638a;
+}
+
+.headerLogo:hover
+{
+	background-color: #4d5da3;
+	border-radius: 8px 0px 0 0;
+}
+
+.headerLogo img
+{
+	margin: 29px 42px 33px;
+	width: 100px;
+	height: 14px;
+	color: #ffffff;
+}
+
+
+.leftIcons
+{
+
+	width: 227px;
+	height: inherit;
+	display: flex;
+}
+
+.leftIcons div
+{
+	height: inherit;
+	width: 33.3%;
+	display: flex;
+	align-items: center;
+	border-right: 1px solid #41638a;
+}
+
+.leftIcons > div:hover
+{
+ background-color: #4d5da3;
+}
+
+.leftIcons div img
+{
+	margin:29px 28px;
+}
+
+.headerBell
+{
+	position: relative;
+}
+.notificationNumber
+{
+	position: absolute;
+	left: 7px;
+	top: -11px;
+}
+.notificationNumber1
+{
+	font-size: 12px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Open Sans";
+text-align: center;
+	position: absolute;
+	left: 39px;
+	top: 17px;
+}
+
+.headerPage
+{
+	text-align: right;
+	width: 100%;
+	display: flex;
+justify-content: flex-end;
+}
+
+.headerPage:hover
+{
+	background-color: #4d5da3;
+}
+
+.headerPageUserName
+{
+margin: auto 0;
+font-size: 16px;
+line-height: 38px;
+color: #ffffff;
+font-weight: bold;
+font-family: "Noto Sans";
+text-align: center;
+}
+
+.headerPageUserImage
+{
+	margin: 26px 0px 26px 20px;
+}
+
+.headerPageArrow 
+{
+	margin: 35px 22px 35px 10px;
+}
+
+.rightIcons
+{
+	width: 227px;
+	height: inherit;
+	display: flex;
+ }
+
+.rightIcons div
+{
+	height: inherit;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	border-left: 1px solid #41638a; 
+}
+
+.rightIcons > div:hover
+{
+ background-color: #4d5da3;
+ border-radius: 0 8px 0 0;
+}
+
+.rightIcons div img
+{
+	margin: 29px 28px;
+}
+
+.secondBar
+{
+	background-color: #ffffff;
+	width: 100%;
+	height: 76px;
+	display: flex;
+	border-radius: 0 0 8px 8px;
+}
+
+.secondBar nav
+{
+	height: 76px;
+	margin: 0 auto ;
+	width: 100%;
+	max-width:552px ;
+	display: flex;
+	justify-content: space-between;
+}
+
+.secondBarMenuText
+{
+	padding: 25px 2px;
+	font-size: 18px;
+letter-spacing: 0px;
+color: #667a90;
+font-weight: 600;
+font-family: "Open Sans";
+align-self: center;
+}
+
+.secondBarMenuText:hover
+{
+	border-bottom: 4px solid lightgrey;
+}
